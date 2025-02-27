@@ -2,8 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/yogigrantz/RegSetting</PackageProjectUrl>
+    <Copyright>2025 Yogi Grantz</Copyright>
+    <Description>Small class to make it easy to save and retrieve registry settings in winform apps</Description>
+    <Company>Yogi Grantz</Company>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="License.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
